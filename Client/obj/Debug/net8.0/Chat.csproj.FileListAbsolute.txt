@@ -12,3 +12,4 @@
 /Users/dt/ChatC#/Client/obj/Debug/net8.0/Chat.pdb
 /Users/dt/ChatC#/Client/obj/Debug/net8.0/Chat.genruntimeconfig.cache
 /Users/dt/ChatC#/Client/obj/Debug/net8.0/ref/Chat.dll
+/Users/dt/ChatC#/Client/obj/Debug/net8.0/Chat.sourcelink.json
