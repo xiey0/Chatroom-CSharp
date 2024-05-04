@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4rf2aMcjbx4HhQwuC2MYmGQKhuj/ww/qnbWs+KQzlnm0FcTXjThqOKlIb2jz5gyFmHNGUWWeaUjcNpVkq1paJQ==",
+  "dgSpecHash": "5FpdTfPiriy1IcutS7/if/yrBvwcOKygT1IFHiWY0CnCY9QPk8d0qElb52/NxzbmK60rin0qRgyeJV99QDTRSA==",
   "success": true,
-  "projectFilePath": "/Users/dt/ChatC#/Client/Chat.csproj",
+  "projectFilePath": "C:\\Users\\30958\\Documents\\GitHub\\Chatroom-CSharp\\Client\\Chat.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

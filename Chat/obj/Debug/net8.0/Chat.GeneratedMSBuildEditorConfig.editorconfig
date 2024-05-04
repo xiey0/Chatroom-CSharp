@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Chat
-build_property.ProjectDir = /Users/dt/ChatC#/Chat/
+build_property.ProjectDir = C:\Users\30958\Documents\GitHub\Chatroom-CSharp\Chat\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
