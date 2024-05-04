@@ -10,33 +10,7 @@ class Program
 
     static void Main(string[] args)
     {
-        List<Socket> sockets = new List<Socket>();
-
-        Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-        IPAddress ip = IPAddress.Parse("127.0.0.1");
-        s.Bind(new IPEndPoint(ip, 23000));
-
-        while (true)
-        {
-
-            s.Listen(100);
-            if (s.Connected)
-            sockets.Add(s.Accept());
-
-            foreach (var temp in sockets)
-            {
-                string receiveStr = "";
-                byte[] receiveBytes = new byte[1024];
-                int bytes;
-                bytes = temp.Receive(receiveBytes, receiveBytes.Length, 0);
-                receiveStr += Encoding.ASCII.GetString(receiveBytes, 0, bytes);
-                temp.Send(Encoding.UTF8.GetBytes(receiveStr));
-                Console.WriteLine(receiveStr);
-            }
-            
-
-
-        }
+        
 
 
 
