@@ -1,0 +1,14 @@
+/Users/dt/ChatC#/Chat/bin/Debug/net8.0/Chat
+/Users/dt/ChatC#/Chat/bin/Debug/net8.0/Chat.deps.json
+/Users/dt/ChatC#/Chat/bin/Debug/net8.0/Chat.runtimeconfig.json
+/Users/dt/ChatC#/Chat/bin/Debug/net8.0/Chat.dll
+/Users/dt/ChatC#/Chat/bin/Debug/net8.0/Chat.pdb
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.AssemblyInfoInputs.cache
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.AssemblyInfo.cs
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.csproj.CoreCompileInputs.cache
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.dll
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/refint/Chat.dll
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.pdb
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/Chat.genruntimeconfig.cache
+/Users/dt/ChatC#/Chat/obj/Debug/net8.0/ref/Chat.dll
