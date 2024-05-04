@@ -10,7 +10,6 @@ class Program
 
     static void Main(string[] args)
     {
-        List<Socket> sockets = new List<Socket>();
 
         Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
         IPAddress ip = IPAddress.Parse("127.0.0.1");
@@ -20,11 +19,10 @@ class Program
         {
 
             s.Listen(100);
-            if (s.Connected)
-            sockets.Add(s.Accept());
 
-            foreach (var temp in sockets)
-            {
+            var temp = s.Accept();
+
+
                 string receiveStr = "";
                 byte[] receiveBytes = new byte[1024];
                 int bytes;
@@ -32,7 +30,7 @@ class Program
                 receiveStr += Encoding.ASCII.GetString(receiveBytes, 0, bytes);
                 temp.Send(Encoding.UTF8.GetBytes(receiveStr));
                 Console.WriteLine(receiveStr);
-            }
+            
             
 
 

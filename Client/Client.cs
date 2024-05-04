@@ -29,7 +29,6 @@ class Program
             s.Close();
             while (true)
             {
-                Console.Write($"{name}");
                 string str2 = name + ": " + Console.ReadLine()!;
 
                 Socket s2 = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
