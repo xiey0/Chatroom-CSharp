@@ -15,4 +15,12 @@ class Program
 
 
     }
+    static async Task MakeSocket()
+    {
+        Socket socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+        socket.Bind(new IPEndPoint(IPAddress.Any, 25667));
+        socket.Listen(10);
+        var temp = socket.AcceptAsync();
+
+    }
 }
